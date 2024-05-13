@@ -1,0 +1,51 @@
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content:center;
+    background-color: #333;
+    padding: 10px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    text-indent: 150px;
+    display: flex;
+    padding-right:150px;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+aside {
+    background-color: #f4f4f4;
+    width: 25%;
+    padding: 20px;
+}
+
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
